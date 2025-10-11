@@ -51,7 +51,8 @@ html, body {
 	color: #01ff56;
 }
 
-.hamburger {
+@media (max-width: 768px) {
+	.hamburger {
 	display: none;
 	flex-direction: column;
 	justify-content: space-between;
@@ -65,7 +66,7 @@ html, body {
 	z-index: 10;
 }
 
-.hamburger span {
+	.hamburger span {
 	height: 3px;
 	width: 100%;
 	background: white;
@@ -73,7 +74,6 @@ html, body {
 	transition: all 0.3s ease;
 }
 
-@media (max-width: 768px) {
 	.navbar-links {
 		position: absolute;
 		top: 64px;
@@ -215,6 +215,7 @@ html, body {
 .volver-inicio-btn {
   margin-top: 10px; 
 }
+
 
 
 
