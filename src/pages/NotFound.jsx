@@ -20,7 +20,7 @@ function NotFound() {
 
         <button
           className="notfound-button"
-          onClick={() => navigate(-1)}
+          onClick={() => navigate('/')}
         >
           Volver al inicio
         </button>
@@ -30,3 +30,4 @@ function NotFound() {
 }
 
 export default NotFound;
+
