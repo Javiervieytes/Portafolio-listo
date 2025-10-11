@@ -12,7 +12,7 @@ body {
 }
 
 .navbar-custom {
-	background: url('public/navbar/Navbar3.webp') ;
+	background: url('/navbar/Navbar3.webp') ;
 	background-color: rgb(44, 44, 44);
 	width: 100%;
 	height: 64px;
@@ -117,6 +117,7 @@ body {
 	margin: 1px 0 1px 0;
 	color: #fcf1f1;
 }
+
 
 
 
