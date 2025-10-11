@@ -1,0 +1,25 @@
+.news-detail {
+  max-width: 860px;     
+  margin: 0 auto;
+}
+
+
+.news-detail-card {
+  border-radius: 24px;
+  overflow: hidden;     
+}
+
+
+.news-detail-card .card-img-top {
+  height: 520px;        
+  object-fit: cover;   
+}
+
+.news-detail-title {
+  font-size: clamp(1.4rem, 2.2vw, 2rem);
+  margin-bottom: .25rem;
+}
+.news-detail-meta {
+  font-size: .95rem;
+  opacity: .75;
+}

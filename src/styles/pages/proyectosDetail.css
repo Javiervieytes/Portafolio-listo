@@ -1,0 +1,26 @@
+.project-detail {
+  max-width: 660px;
+  margin: 0 auto;
+}
+
+.project-detail-card {
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.project-detail-card .card-img-top {
+  max-width: 700px;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+.project-detail-title {
+  font-size: clamp(1.4rem, 2.2vw, 2rem);
+  margin-bottom: 0.25rem;
+  color: #000000;
+  text-align: center;
+}

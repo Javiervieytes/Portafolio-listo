@@ -1,0 +1,120 @@
+body {
+	margin: 0;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	min-height: 100vh;
+}
+
+.main-bg {
+	min-height: 100vh;
+	background: url('public/imagenFondo/fondo.webp') no-repeat center center/cover;
+	background-attachment: fixed; 
+  	background-size: cover;
+}
+
+.navbar-custom {
+	background: url('public/navbar/Navbar3.webp') ;
+	background-color: rgb(44, 44, 44);
+	width: 100%;
+	height: 64px;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 5vw;
+	box-sizing: border-box;
+} 
+
+.navbar-title {
+	font-size: clamp(1rem, 2.5vw, 1.4rem);
+}
+.navbar-links a {
+	color: #fff;
+	text-decoration: none;
+	margin-left: 30px;
+	font-size: clamp(0.8rem, 2vw, 1rem);
+	transition: color 0.3s;
+}
+.navbar-links a:hover {
+	color: #01ff56;
+}
+
+.home-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: calc(100vh - 56px);
+}
+
+.profile-pic-container {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.profile-pic {
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	border: 5px solid #ffffff;
+	object-fit: cover;
+	background: #ffffff;
+}
+
+.profile-name {
+	font-size: 2.5rem;
+	font-weight: bold;
+	margin-bottom: 40px;
+	color: #fcf1f1;
+}
+
+.profile-desc {
+	font-size: 1.1rem;
+	color: #ffffff;
+	margin-bottom: 40px;
+}
+
+.profile-link {
+	color: #ffffff;
+	text-decoration: none;
+	margin-bottom: 30px;
+	display: block;
+}
+
+.profile-name,
+.profile-desc,
+.github-name,
+.profile-welcome {
+  color: #ffffff; 
+  background: rgba(0, 0, 0, 0.6); 
+  backdrop-filter: blur(4px);
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  max-width: 700px;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+
+
+.github-btn {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.25s ease;
+}
+
+.github-btn:hover {
+  transform: scale(1.15);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.github-name {
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin: 1px 0 1px 0;
+	color: #fcf1f1;
+}
+
