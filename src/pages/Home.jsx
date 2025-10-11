@@ -7,11 +7,7 @@ function Home() {
   return (
     
     <div className="main-bg">
-      <nav className="navbar-custom">
         <NavBar />
-         <div id="intro" className="home-container"> 
-        </div>
-      </nav>
       <div className="home-container">
         <div className="profile-pic-container">
           <img
@@ -42,5 +38,6 @@ function Home() {
 }
 
 export default Home;
+
 
 
