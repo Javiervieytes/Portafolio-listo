@@ -6,7 +6,7 @@ body {
 
 .main-bg {
 	min-height: 100vh;
-	background: url('imagenFondo/fondo.webp') no-repeat center center/cover;
+	background: url('/imagenFondo/fondo.webp') no-repeat center center/cover;
 	background-attachment: fixed; 
   	background-size: cover;
 }
@@ -117,5 +117,6 @@ body {
 	margin: 1px 0 1px 0;
 	color: #fcf1f1;
 }
+
 
 
