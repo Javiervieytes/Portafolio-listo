@@ -49,6 +49,14 @@ function ProductDetail() {
             className="mt-1 d-block w-auto mx-auto">
             Enlace al proyecto
             </Button>
+
+            <Button
+            variant="primary"
+            onClick={() => navigate(('/'))}
+            className="mb-2 d-block w-auto mx-auto volver-inicio-btn"
+            >
+              Volver al inicio
+            </Button>
           </Card.Body>
         </Card>
       </Container>
@@ -57,3 +65,4 @@ function ProductDetail() {
 }
 
 export default ProductDetail;
+
