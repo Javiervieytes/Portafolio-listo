@@ -3,6 +3,8 @@ function enviarFormulario() {
     let correo = document.getElementById("correo").value.trim();
     let comentario = document.getElementById("comentario").value.trim();
 
+        const regexNombre = /^[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+$/;
+    
     if(nombre === ""){
         console.log("Input nombre vacío");
         alert("Campo nombre vacío");
@@ -10,6 +12,9 @@ function enviarFormulario() {
     } else if(nombre.length > 100){
         console.log("El nombre no puede tener más de 100 caracteres");
         alert("No puedes ingresar más de 100 caracteres en el nombre");
+        return;
+    } else if (!regexNombre.test(nombre)) {
+        alert("El nombre solo puede contener letras y espacios (sin números ni símbolos especiales)");
         return;
     }
     if(correo === ""){
@@ -42,4 +47,5 @@ function enviarFormulario() {
     document.getElementById("correo").value = "";
     document.getElementById("comentario").value = "";
 }
+
 export { enviarFormulario };
