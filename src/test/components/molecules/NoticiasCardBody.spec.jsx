@@ -22,6 +22,9 @@ describe('NoticiasCardBody', () => {
       />
     );
 
+
+    
+    // Fecha arreglada se que varia por locale nomas
     expect(screen.getByText(/Inteligencia Artificial/)).toBeTruthy();
     expect(screen.getByText(/2023/)).toBeTruthy();
   });
@@ -31,4 +34,5 @@ describe('NoticiasCardBody', () => {
     expect(screen.getByText('Inteligencia Artificial')).toBeTruthy();
   });
 });
+
 
