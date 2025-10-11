@@ -53,7 +53,15 @@ function NoticiasDetail() {
                 className="mt-1 d-block w-auto mx-auto"
               >
                 Ir a la fuente
-            </Button>
+              </Button>
+
+              <Button
+                variant="primary"
+                onClick={() => navigate(('/'))}
+                className="mb-2 d-block w-auto mx-auto volver-inicio-btn"
+              >
+                Volver al inicio
+              </Button>
             </Card.Body>
           </Card>
         </div>
@@ -63,4 +71,5 @@ function NoticiasDetail() {
 }
 
 export default NoticiasDetail;
+
 
