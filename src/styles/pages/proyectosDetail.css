@@ -10,7 +10,7 @@
 }
 
 .project-detail-card .card-img-top {
-  max-width: 700px;
+  max-width: 600px;
   height: auto;
   object-fit: contain;
   margin: 0 auto;
@@ -24,3 +24,4 @@
   color: #000000;
   text-align: center;
 }
+
