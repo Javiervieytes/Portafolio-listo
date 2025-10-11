@@ -15,7 +15,7 @@ function Home() {
       <div className="home-container">
         <div className="profile-pic-container">
           <img
-            src="public/fotoPerfil/perfil.webp"
+            src="/fotoPerfil/perfil.webp"
             alt="Javier Vieytes"
             className="profile-pic"
           />
@@ -42,4 +42,5 @@ function Home() {
 }
 
 export default Home;
+
 
