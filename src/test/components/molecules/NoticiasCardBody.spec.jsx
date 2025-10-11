@@ -18,16 +18,17 @@ describe('NoticiasCardBody', () => {
       <NoticiasCardBody
         title="Noticia"
         date="2023-10-04"
-        category="Anime"
+        category="Inteligencia Artificial"
       />
     );
-    // Fecha formateada: 04 oct 2023 · Anime (puede variar por locale)
-    expect(screen.getByText(/Anime/)).toBeTruthy();
+
+    expect(screen.getByText(/Inteligencia Artificial/)).toBeTruthy();
     expect(screen.getByText(/2023/)).toBeTruthy();
   });
 
   it('renderiza solo la categoría si no hay fecha', () => {
-    render(<NoticiasCardBody title="Noticia" category="Anime" />);
-    expect(screen.getByText('Anime')).toBeTruthy();
+    render(<NoticiasCardBody title="Noticia" category="Inteligencia Artificial" />);
+    expect(screen.getByText('Inteligencia Artificial')).toBeTruthy();
   });
 });
+
