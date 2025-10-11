@@ -30,7 +30,7 @@ function Home() {
         </p>
 
         <a className="profile-link" href="https://github.com/Javiervieytes" target="_blank" rel="noopener noreferrer">
-          <img src="/public/github/github.webp" alt="Github"  className="github-btn"/>
+          <img src="/github/github.webp" alt="Github"  className="github-btn"/>
         </a>
         
         <p className="profile-welcome">
@@ -42,3 +42,4 @@ function Home() {
 }
 
 export default Home;
+
