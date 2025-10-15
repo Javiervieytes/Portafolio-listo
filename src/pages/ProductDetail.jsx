@@ -50,7 +50,6 @@ function ProductDetail() {
             Enlace al proyecto
             </Button>
 
-            </Button>
           </Card.Body>
         </Card>
       </Container>
@@ -59,5 +58,6 @@ function ProductDetail() {
 }
 
 export default ProductDetail;
+
 
 
